@@ -4,7 +4,7 @@ import ContactUsView from '../views/contactUs/ContactUsView';
 import { checkRequired, checkAlphabets, checkEmail } from '../reusable/utils';
 import { apiService } from 'src/reusable/Api';
 
-let testName = "ContactUs business"
+let testName = "ContactUs functional"
 
 const initialValues = {
     firstName: "",
