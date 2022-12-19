@@ -3,7 +3,7 @@ import { render, screen, fireEvent, queryByAttribute, act, queryAllByAttribute, 
 import { checkAge, checkAlphabets, checkEmail, checkNumber, checkRequired, pinCode } from '../reusable/utils';
 import { apiService } from '../reusable/Api';
 import CreateAppointmentView from '../views/createAppointment/CreateAppointmentView';
-let testName = "CreateAppointment business"
+let testName = "CreateAppointment functional"
 const getById = queryByAttribute.bind(null, 'id');
 const getByName = queryAllByAttribute.bind(null, 'name');
 
